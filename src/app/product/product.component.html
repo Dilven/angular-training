@@ -1,0 +1,8 @@
+<strong>Title: </strong>{{ product.title }}
+<br/>
+<strong>price: </strong>{{ product.price }}
+<ng-container *ngIf="product.tags && product.tags.length > 0">
+  <span *ngFor="let tag of product.tags">
+    {{ tag }}
+  </span>
+</ng-container>

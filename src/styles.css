@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+section {
+  border-top: 1px solid gainsboro;
+  padding: 0 20px 20px;
+}
+
+.section__title {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.product__list {
+  margin: 0;
+  padding: 0;
+}
+
+.product__list-item {
+  list-style: none;
+}
+
+.product__single {
+  padding: 10px;
+  margin: 5px auto;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  max-width: 320px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product__price {
+  color: gray;
+}
+
+.product__price--promo {
+  color: slateblue;
+}
